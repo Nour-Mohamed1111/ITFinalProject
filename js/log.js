@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     let currentUser = users.find(user => user.remembered === true);
 
     if (currentUser.remembered) {
-        window.location.href = "../pages/home.html";
+        window.location.href = "/ITFinalProject/pages/home.html";
     }
 });
 
@@ -62,7 +62,7 @@ function login() {
         localStorage.setItem("users", JSON.stringify(users));
 
         setTimeout(function() {
-          window.location.href = "../pages/home.html";
+          window.location.href = "/ITFinalProject/pages/home.html";
         }, 3000);
 
       } else {
