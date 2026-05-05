@@ -306,7 +306,7 @@ body{
 /* Responsive */
 @media (max-width:1400px) {
     .exploreMain .container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .exploreMain .container .leftside{
         display: grid;
