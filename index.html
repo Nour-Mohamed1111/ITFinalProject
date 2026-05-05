@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../images/favicon/android-chrome-512x512.png">
+    <!-- font awesome - for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="logcontainer">
+        <div id="loginform">
+            <h2>مرحبا</h2>
+            <p>سعداء برؤيتك مرة اخري</p>
+            <p>لنكمل استكشاف</p>
+            <input type="text" id="loginid" placeholder="البريد الإلكتروني" required><br>
+            <input type="password" id="loginpassid" placeholder="كلمة السر" required><br>
+            <button type="button" onclick="login()">تسجيل دخول</button>
+            <div class="bottomBox">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">تذكرني</label>
+                </div>
+                <p class="switch"> ليس لديك حساب؟ <a href="pages/sign.html">إنشاء حساب</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="empty">
+        <div class="box">
+            <p>من فضلك اكتب الاسم و كلمة السر!</p>
+            <button class="okay">حسنا</button>
+        </div>
+    </div>
+
+    <div class="popup" id="noname">
+        <div class="box">
+            <p>مفيش حساب بالاسم ده! <br> من فضلك إنشئ حساب الأول!</p>
+            <button class="okay">حسنا</button>
+        </div>
+    </div>
+
+    <div class="popup" id="hi">
+        <div class="box">
+            <h3>تم تسجيل الدخول بنجاح!</h3><br>
+            <p>جاري تحويلك للصفحة الاساسية...</p>
+        </div>
+    </div>
+
+    <div class="popup" id="wrongpass">
+        <div class="box">
+            <p>كلمة السر غلط!</p><br>
+            <button class="okay">حسنا</button>
+        </div>
+    </div>
+    
+    <script src="../js/log.js"></script>
+</body>
+</html>

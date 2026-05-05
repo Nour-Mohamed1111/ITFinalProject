@@ -1,0 +1,224 @@
+{
+    "animals": [
+        {
+        "id": 1,
+        "name": "كلب بلدي",
+        "image": {
+            "url": "../images/animals/dog.jpg",
+            "alt": "كلب بلدي"
+            },
+        "isDangerous": true,
+        "family": "كلاب",
+        "type": "ثديات",
+        "shortDescription": "كلب بلدي مصري مستورد خطير",
+        "originCountry": "مصر",
+        "isFavorite": false,
+        "longDescription": "الهاسكي هو أحد أقوى الحيوانات البرية وينتمي إلى عائلة السنوريات، يتميز بجسم قوي ورأس كبير وذيل طويل.",
+        "lifespan": "10 - 14 سنة",
+        "weight": "190 كجم",
+        "speed": "400 مليون كيلو",
+        "state":"مبيموتش",
+        "iframeVideoUrl":"https://www.youtube.com/embed/KTO1HeeN2u8"
+        },
+        {
+        "id": 2,
+        "name": "صاوي ",
+        "image": {
+            "url": "../images/animals/cat.jpg",
+            "alt": "قطه صاوي"
+            },
+        "isDangerous": true,
+        "family": "قطط",
+        "type": "ثديات",
+        "shortDescription": "قطه صاوي شوارعية",
+        "originCountry": "عزبة الوالده ",
+        "isFavorite": false,
+        "longDescription": "القط صاوي هو أحد أعتى وحوش عزبة الوالده وينتمي لفصيلة 'الأسود اللي واكلة شاربين'، يتميز بكرش انسيابي ونظرة خمول تكتيكي، وله قدرة خارقة على إقناعك إنه هو صاحب البيت وأنت مجرد ضيف تقيل بيقدمله التونة.",
+        "lifespan": "100 - 200 سنة",
+        "weight": "5 كجم",
+        "speed": "30 مليون كيلو",
+        "state":"صاوي واحد بس",
+        "iframeVideoUrl":"https://www.youtube.com/embed/hz9csDBUn0Q"
+        },
+        {
+        "id": 3,
+        "name": "طائر البلبل",
+        "image": {
+            "url": "../images/animals/bird.jpg",
+            "alt": "طائر البلبل<"
+            },
+        "isDangerous": false,
+        "family": "طيور",
+        "type": "طيور",
+        "shortDescription": "طائر بلبل بلدي مستورد",
+        "originCountry": "عزبة زين",
+        "isFavorite": false,
+        "longDescription": "بلبل عزبة زين ده مش مجرد طائر، ده 'فرد أمن طائر' برتبة مخبر، وينتمي لفصيلة 'العصافير اللي مبيتبلش في بؤها فولة'. يتميز بوقفة 'إيه اللي جابك هنا يا روح أمك' على حبل الغسيل، وعنده قدرة إعجازية إنه يحدد مين في العزبة طابخ ملوخية ومين شاري كشري من الريحة بس.",
+        "lifespan": "2 - 3 سنين",
+        "weight": "4 كجم",
+        "speed": "10 متر ف الساعه",
+        "state":"كتير",
+        "iframeVideoUrl":"https://www.youtube.com/embed/LX3H_fpYbTs"
+        },
+        {
+        "id": 4,
+        "name": "كلب جولدن",
+        "image": {
+            "url": "../images/animals/dogGolden.jpg",
+            "alt": "كلب جولدن"
+            },
+        "isDangerous": false,
+        "family": "كلاب",
+        "type": "ثديات",
+        "shortDescription": "كلب جولدن الماني ",
+        "originCountry": "المانيا",
+        "isFavorite": false,
+        "longDescription": "الكلب الجولدن ريتريفر هو مثال حي للوفاء والذكاء الفطري، وينتمي لسلالة كلاب الصيد المستردة التي نشأت في اسكتلندا. يتميز بفراء ذهبي كثيف وناعم، وبنية جسدية قوية ومتناسقة، وعينين تعكس طيبة وهدوءًا نادرين. يُعرف هذا الكلب بقدرته العالية على التعلم والاستجابة للتدريب، مما يجعله ليس فقط رفيقاً منزلياً مثالياً، بل واحداً من أكثر السلالات تميزاً في تقديم الدعم النفسي والعمل ككلب مساعدة بفضل طبيعته الحنونة والمتزنة.",
+        "lifespan": "8 - 12 سنة",
+        "weight": "4 - 8 كجم",
+        "speed": "30 كم/س",
+        "state":"متوفر",
+        "iframeVideoUrl":"https://www.youtube.com/embed/oGhWw0jBb8s"
+        },
+        {
+        "id": 5,
+        "name": "قطه سيامي",
+        "image": {
+            "url": "../images/animals/catSiame.jpg",
+            "alt": "قطه سيامي"
+            },
+        "isDangerous": false,
+        "family": "قطط",
+        "type": "ثديات",
+        "shortDescription": "قطه سيامي أروبية ",
+        "originCountry": "شمال اوروبا",
+        "isFavorite": false,
+        "longDescription": "تُعد القطة السيامي واحدة من أعرق وأشهر سلالات القطط في العالم، وهي تنحدر من أصول تايلاندية (مملكة سيام قديماً). تتميز بجسم رشيق وعضلي مكسو بفراء قصير وناعم، مع عيون زرقاء لوزية الشكل تفيض بالذكاء والتركيز.",
+        "lifespan": "8 - 12 سنة",
+        "weight": "2 - 4 كيلو",
+        "speed": "40 كم/س",
+        "state":"متوفرة",
+        "iframeVideoUrl":"https://www.youtube.com/embed/3C6STV8EO9g"
+        },
+        {
+        "id": 6,
+        "name": "قطه شيرازي",
+        "image": {
+            "url": "../images/animals/catSherazy.jpg",
+            "alt": "قطه شيرازي"
+            },
+        "isDangerous": false,
+        "family": "قطط",
+        "type": "ثديات",
+        "shortDescription": "قطه شيرازي أروبية ",
+        "originCountry": "جنوب اوروبا",
+        "isFavorite": false,
+        "longDescription": "تُعد القطة الشيرازي واحدة من أعرق وأشهر سلالات القطط في العالم، وهي تنحدر من أصول تايلاندية (مملكة سيام قديماً). تتميز بجسم رشيق وعضلي مكسو بفراء قصير وناعم، مع عيون زرقاء لوزية الشكل تفيض بالذكاء والتركيز.",
+        "lifespan": "6 - 8 سنة",
+        "weight": "2 - 3 كيلو",
+        "speed": "40 كم/س",
+        "state":"متوفرة",
+        "iframeVideoUrl":"https://www.youtube.com/embed/3C6STV8EO9g"
+        },
+        {
+        "id": 7,
+        "name": "اسد افريقي",
+        "image": {
+            "url": "../images/animals/lion.jpg",
+            "alt": "اسد افريقي"
+            },
+        "isDangerous": true,
+        "family": "الأسود",
+        "type": "ثديات",
+        "shortDescription": " اسد افريقي بالغ ",
+        "originCountry": "جنوب  افريقيا",
+        "isFavorite": false,
+        "longDescription": "يُعد الأسد الإفريقي من أشهر الحيوانات المفترسة على وجه الأرض، ويُلقب بـ ملك الغابة رغم أن موطنه الأساسي هو السهول العشبية والسافانا المفتوحة في قارة إفريقيا. يتميز الأسد بقوته الهائلة وبنيته العضلية، كما يُعرف الذكر بلبدته الكثيفة التي تمنحه مظهرًا مهيبًا وتساعده في الحماية أثناء القتال.",
+        "lifespan": "12 - 20 سنة",
+        "weight": "80 - 180 كيلو",
+        "speed": "40 كم/س",
+        "state":"متوفر",
+        "iframeVideoUrl":"https://www.youtube.com/embed/OMkEVX23BdM"
+        },
+        {
+        "id": 8,
+        "name": "سلحفاه برمائيه",
+        "image": {
+            "url": "../images/animals/turtle1.jpg",
+            "alt": "سلحفاه برمائيه"
+            },
+        "isDangerous": false,
+        "family": "السلاحف",
+        "type": "بيوضية",
+        "shortDescription": "سلحفاه برمائيه افريقية",
+        "originCountry": "شمال  افريقيا",
+        "isFavorite": false,
+        "longDescription": "تُعد السلحفاة البرمائية من الكائنات المميزة التي تعيش بين الماء واليابسة، حيث تجمع في نمط حياتها بين السباحة والعيش على الأرض. تنتشر هذه السلاحف في الأنهار والبحيرات والمستنقعات، وتمتاز بقدرتها على التكيف مع بيئات مختلفة، مما يجعلها من أكثر الزواحف تنوعًا وانتشارًا.",
+        "lifespan": "20 - 40 سنة",
+        "weight": "1 - 3 كيلو",
+        "speed": " 0.25 كم/س",
+        "state":"نادرة",
+        "iframeVideoUrl":"https://www.youtube.com/embed/5Rmv3nliwCs"
+        },
+        {
+        "id": 9,
+        "name": "سلحفاه بريه",
+        "image": {
+            "url": "../images/animals/turtle2.jpg",
+            "alt": "سلحفاه بريه"
+            },
+        "isDangerous": false,
+        "family": "السلاحف",
+        "type": "بيوضية",
+        "shortDescription": "سلحفاه بريه افريقية",
+        "originCountry": "جنوب  افريقيا",
+        "isFavorite": false,
+        "longDescription": "تُعد السلحفاة البرية من أقدم الكائنات الحية على وجه الأرض، حيث عاشت لملايين السنين ونجحت في التكيف مع البيئات الجافة والصحراوية. تتميز هذه السلاحف بدرع قوي وصلب يغطي جسمها بالكامل، ويوفر لها حماية فعالة من المفترسات، كما يساعدها على الاحتفاظ بالماء داخل جسمها لفترات طويلة.",
+        "lifespan": "50 - 150 سنة",
+        "weight": "1 - 150 كيلو",
+        "speed": " 0.25 كم/س",
+        "state":"نادرة",
+        "iframeVideoUrl":"https://www.youtube.com/embed/KIjytEQrDiM"
+        },
+        {
+        "id": 10,
+        "name": "فيل افريقي",
+        "image": {
+            "url": "../images/animals/ele.jpg",
+            "alt": "فيل افريقي"
+            },
+        "isDangerous": true,
+        "family": "أفيال",
+        "type": "ثديات",
+        "shortDescription": "فيل بري افريقي",
+        "originCountry": "غرب  افريقيا",
+        "isFavorite": false,
+        "longDescription": "يُعد الفيل الإفريقي أكبر حيوان بري على وجه الأرض، ويعيش في السهول والغابات والمناطق المفتوحة في قارة إفريقيا. يتميز بجسمه الضخم وأذنيه الكبيرتين اللتين تشبهان شكل قارة إفريقيا، وتساعدانه على تنظيم حرارة جسمه في البيئات الحارة.",
+        "lifespan": "50 - 70 سنة",
+        "weight": "300 - 6000 كيلو",
+        "speed": "40 كم/س",
+        "state":"متوفر",
+        "iframeVideoUrl":"https://www.youtube.com/embed/Aw6GkiCvcWs"
+        },
+        {
+        "id": 11,
+        "name": "زرافه افريقية",
+        "image": {
+            "url": "../images/animals/giraphe.jpg",
+            "alt": "زرافه افريقية"
+            },
+        "isDangerous": false,
+        "family": "زرافه",
+        "type": "ثديات",
+        "shortDescription": "زرافه برية افريقية",
+        "originCountry": "جنوب  افريقيا",
+        "isFavorite": false,
+        "longDescription": "تُعد الزرافة أطول حيوان بري في العالم، وتعيش في السهول المفتوحة والسافانا في قارة إفريقيا. تتميز برقبتها الطويلة جدًا التي تساعدها على الوصول إلى أوراق الأشجار العالية، خاصة أشجار الأكاسيا التي تُعد مصدر غذائها الأساسي.",
+        "lifespan": "20 - 30 سنة",
+        "weight": "800 - 1200 كيلو",
+        "speed": "60 كم/س",
+        "state":"متوفر",
+        "iframeVideoUrl":"https://www.youtube.com/embed/MTZjHk7kB_Y"
+        }
+    ]
+}

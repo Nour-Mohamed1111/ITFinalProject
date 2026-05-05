@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: url("../images/signimage/prgpic2.jpeg") no-repeat center/cover;
+}
+
+.logcontainer{
+  width:600px;
+  padding:30px;
+  border-radius:15px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border:1px solid rgba(255,255,255,0.3);
+}
+
+h2{
+  text-align:center;
+  color:#4d7c9a;
+  font-size: 27px;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:none;
+  border-radius:5px;
+  background: rgba(255,255,255,0.2);
+  color:#43332e;
+}
+
+input::placeholder{
+  color:#5684a2;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  background:#43332e;;
+  color:#bfb6b3;
+  border:none;
+  border-radius:5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.switch{
+  text-align:center;
+  margin-top:10px;
+  color:#88a8bd;
+}
+
+.switch a{
+  color:#88a8bd;  
+}
+
+a:hover{
+  color: #a7c9e8;
+}
+
+p{
+    color: #5a3e2b;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.bottomBox{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 10px;
+}
+.remember-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  color: #88a8bd;
+  margin-top: 5px;
+}
+
+.remember-me input {
+  width: 16px;
+  height: 16px;
+  accent-color: #5684a2; 
+  cursor: pointer;
+}
+
+.remember-me label {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.remember-me input::placeholder{
+  color: #bfb6b3;
+}
+
+.popup{
+  display: none;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background: rgba(39, 39, 39, 0.632);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-family: 'Cairo', sans-serif;
+}
+
+.okay{
+  background: #5684a2;
+  color: #F5F7FB;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 10px;
+}
+
+.box{
+  background-color: #F5F7FB;
+  border-radius: 15px;
+  padding: 35px 40px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  color: #5a3e2b;
+  font-size: 16px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px rgba(215, 215, 215, 0.112) inset !important;
+  -webkit-text-fill-color: #43332e !important;
+  caret-color: #43332e;
+  transition: background-color 9999s ease-in-out 0s;
+}

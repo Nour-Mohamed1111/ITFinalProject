@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: Cairo,sans-serif;
+}
+:root{
+    --dark-blue:#001D39;
+    --mid-dark-blue:#0a4174;
+    --light-dark-blue:#49769f;
+    --light-blue:#7bbde8;
+    --ligter-blue:#bdd8e9;
+    --yellow:#ffcd00;
+    --brown:#614943;
+}
+body{
+    background-color:#f5f7fb;
+}
+.divstart{
+    height: 30vh;
+    background-image: url(../images/main.jpeg);
+    background-size: cover;
+}
+.divstart h2{
+    font-size: 220%;
+    color: beige;
+    text-align: right;
+    padding: 50px 30px 0 0;
+    font-weight: 900;
+    font-style: normal;
+
+}
+.divstart p{
+    color:#fff;
+    margin-right:30px ;
+    width: 40%;
+    font-size: 18px;
+}
+main{
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#section img{
+    width: 15vw;
+    border-radius: 10px;
+    margin-top:20%;
+    position: sticky;
+    top: 100px;
+}
+section.postSection{
+    width: 55%;
+}
+#div1,#div2,#div3{
+    margin: 50px 0 50px 0;
+    padding: 0 15px;
+    box-shadow:0px 2px 8px rgb(124, 124, 124,0.25) ;
+    background-color:#fff;
+    border-radius:16px
+}
+.post{
+    display: flex;        
+    align-items: right;            
+    font-size: 24px;
+    color: var(--brown);
+}
+#div1 .fa-sharp,#div2 .fa-sharp,#div3 .fa-sharp{
+    width: 90%;
+    border-bottom: solid var(--brown) 1px;
+    font-size: 32px;
+    padding: 30px;
+}
+.section p{
+    font-size: x-large;
+    color: var(--brown);
+    padding: 4%;
+}
+#div1 img{
+    height:50%;
+    width: 100%;
+    padding: 0 2%;
+    border-radius: 50px;
+}
+#div2 img{
+    height: 40%;
+    margin-right: 0%;
+    width: 100%;
+    margin-bottom: 2%;
+    padding:0 2%;
+    border-radius: 50px;
+}
+#div3 img{
+    height: 45%;
+    margin-right: 2%;
+    width: 100%;
+    padding:0 2%;
+    border-radius: 50px;
+}
+.buttom{
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.buttom button{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    padding: 10px 0;
+    font-size: 24px;
+    cursor: pointer;
+    border:none;
+    background:transparent;
+    color:var(var(--brown))
+}
+
+
+

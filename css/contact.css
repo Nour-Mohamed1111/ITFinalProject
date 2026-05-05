@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body{
+    direction: rtl;
+    background-color:#f5f7fb;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+header{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+header h1{
+    font-size: 40px;
+}
+.box1{
+    width: 30%;
+}
+.box2{
+    height: 100%;
+    width: 50%;
+}
+.box1,.box2 {
+    background: #fff;
+    margin: 0 20px;
+    box-shadow: 0 2px 8px rgba(124, 124, 124, 0.25);
+    border-radius: 12px;
+}
+.box1 h2{
+    margin-top: 10px;
+}
+.test{
+    margin: 5px;
+}
+.sty{
+    padding: 0 10px;
+    text-align: right;
+    margin: 10px 0;
+}
+.test p{
+    background-color:#eef2f5;
+    margin: 10px 20px ;
+    padding: 5px 0;
+    border-radius:6px;
+}
+input,textarea{
+    padding: 10px;
+    margin: 5px;
+    width: 80%;  
+    background-color: #eef2f5;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Cairo';
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.submitBtn{
+    width: 30%; 
+    background-color:#6687a5;
+    color: #eef2f5;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: #2b4156;
+}
+
+label{
+    padding: 0 70px ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.size{
+    margin: 10px 20px;
+}

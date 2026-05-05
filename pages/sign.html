@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب</title> 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../images/favicon/android-chrome-512x512.png">
+    <!-- font awesome - for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <div class="signcontainer">
+        <div id="signupform">
+            <h2>مرحبا</h2>
+            <p>ابدأ استكشاف معنا</p>
+            <p>ليس لديك حساب؟ سجل الان</p>
+            <input type="text" id="signid" placeholder="الاسم" required><br>
+            <input type="password" id="signpassid" placeholder="كلمة السر" required><br>
+            <input type="email" id="signemail" placeholder="البريد الإلكتروني" required><br>
+            <input type="date" id="signbday" placeholder="تاريخ الميلاد" required><br>
+            <button type="button" onclick="signup()">إنشاء حساب</button>
+            <p class="switch">لديك حساب بالفعل؟ <a href="../index.html">تسجيل دخول</a></p>
+        </div>
+    </div>
+
+    <div class="popup" id="done">
+        <div class="box">
+            <h3>تم إنشاء الحساب بنجاح!</h3><br>
+            <p>جاري تحويلك للصفحة الاساسية...</p>
+        </div>
+    </div>
+
+
+
+    <div class="popup" id="samename">
+        <div class="box">
+            <p>يوجد مستخدم اخر بنفس الاسم اختار اسم تاني!</p><br>
+            <button class="okay">حسنا</button>
+        </div>
+    </div>
+
+
+
+    <div class="popup" id="cotcom">
+        <div class="box">
+        <p>من فضلك املأ جميع البيانات!</p><br>
+        <button class="okay">حسنا</button>
+        </div>
+    </div>
+
+    <script src="../js/sign.js"></script>
+</body>
+</html>

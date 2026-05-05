@@ -1,0 +1,210 @@
+:root{
+    --dark-blue:#001D39;
+    --mid-dark-blue:#0a4174;
+    --light-dark-blue:#49769F;
+    --light-blue:#7BBDE8;
+    --lighter-blue:#BDD8E9;
+    --yellow:#FFCD00;
+    --brown:#614943;
+}
+body{
+    background-color:#f5f7fb;
+}
+.container{
+    padding-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidebar .catg,
+.sidebar .infBox{
+    box-shadow: 0 2px 8px rgba(124, 124, 124, 0.25);
+    border-radius:16px;
+    padding:20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#fff;
+}
+.sidebar .catg .catgHeader
+{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.sidebar .catg .types{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar .catg .types button{
+    font-family: "Cairo",'sans-serif';
+    width: 80%;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: var(--lighter-blue);
+    font-weight: bold;
+    color: var(--light-dark-blue);
+    outline: none;
+    border:none;
+    box-shadow: 0 2px 8px rgba(132, 132, 132, 0.08);
+    transition: all 0.3s ease;
+}
+.sidebar .catg .types button:hover{
+    box-shadow: 0 4px 16px rgba(132, 132, 132, 0.08);
+    scale: 1.02;
+}
+.sidebar .catg .types span{
+    background-color:var(--yellow);
+    color:var(--mid-dark-blue);
+    font-size: 12px;
+    border-radius:8px;
+    font-weight: bold;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.main {
+    flex: 3;
+    padding:0 30px;
+}
+.main .header{
+    display: flex;
+    justify-content: space-between;
+}
+.main .cards{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.main .cards .card{
+    width: 300px;
+    border-radius:16px;
+    box-shadow: 0 2px 8px rgba(124, 124, 124, 0.25);
+    position: relative;
+    background-color:#fff;
+    transition: all ease .3s;
+}
+.main .cards .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(124, 124, 124, 0.25);
+}
+.main .cards .card img{
+    width: 100%;
+    border-radius:16px 16px 0 0;
+    transition: all ease .3s;
+}
+.main .cards .card img:hover{
+    filter: brightness(0.8);
+}
+.main .cards .card .danger{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color:red;
+    background-color:#fff;
+    padding: 3px 8px;
+    border-radius:8px;
+}
+.main .cards .card .content{
+    padding: 0 20px;
+}
+.main .cards .card .content .type{
+    background-color:var(--yellow);
+    color:var(--mid-dark-blue);
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius:16px;
+    font-weight: bold;
+}
+.main .cards .card .content p{
+    color:#707070;
+}
+.main .cards .card .content .region{
+    background-color:var(--lighter-blue);
+    color:var(--light-dark-blue);
+    padding: 2px 10px;
+    font-size: 13px;
+    border-radius:16px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+}
+.main .cards .card .content .btns{
+    margin: 40px 0 15px 0 ;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.main .cards .card .content .btns button{
+    background: transparent;
+    border:none;
+    outline: none;
+    transition: .5s ease all;
+}
+.main .cards .card .content .btns button:hover{
+    opacity: .7;
+}
+.container .main .cards .card .content .btns button i{
+    font-size: 32px;
+    color:rgb(255, 0, 68);
+}
+.main .cards .card .content .btns a{
+    color:#fff;
+    background-color:var(--mid-dark-blue);
+    width:80%;
+    padding: 10px;
+    border-radius:12px;
+    transition: .5s ease all;
+    display: flex;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+}
+.main .cards .card .content .btns a:hover{
+    opacity: .8;
+}
+/* list cards */
+.main .cards.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .cards.list .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.main .cards.list .card img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.main .cards.list .card .content {
+    flex: 1;
+    padding: 0 20px;
+}
+.main .cards.list .card .content .btns {
+    margin-top: 15px;
+    justify-content: space-between
+}
+.main .cards.list .card .content .btns a{
+    width: 90%;
+}
+.container .main .cards.list .card .danger{
+    top: 20px;
+    right: 15px;
+}
+/* list cards end */
