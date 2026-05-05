@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     let currentUser = users.find(user => user.remembered === true);
 
     if (currentUser.remembered) {
-        window.location.href = "pages/home.html";
+        window.location.href = "../pages/home.html";
     }
 });
 
