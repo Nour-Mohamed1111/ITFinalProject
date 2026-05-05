@@ -15,7 +15,7 @@ fetch("../data.json")
     .then(data => {
         animals = data.animals;
         const animal = animals.find(a => a.id === id);
-
+        //inject content
         renderContent(animal);
     });
 
