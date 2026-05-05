@@ -378,7 +378,6 @@ body.dark .exploreMain h2{
     color: var(--yellow) !important
 }
 body.dark .main.home{
-    transition: .5s ease all;
     background-image: url(../images/home_bg_dark.jpg);
 }
 body.dark .contactBox h2,
