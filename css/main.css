@@ -370,7 +370,8 @@ body.dark h2,
 body.dark h3,
 body.dark .post-card span,
 body.dark .post-card i,
-body.dark .post-card button
+body.dark .post-card button,
+body.dark .animalDetails p
 {
     color:#fff !important;
 }
