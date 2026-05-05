@@ -62,7 +62,7 @@ function login() {
         localStorage.setItem("users", JSON.stringify(users));
 
         setTimeout(function() {
-          window.location.href = "home.html";
+          window.location.href = "../pages/home.html";
         }, 3000);
 
       } else {
