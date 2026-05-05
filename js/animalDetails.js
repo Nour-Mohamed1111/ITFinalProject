@@ -59,7 +59,7 @@ function renderContent(animal){
                                     : ` اضافه الى المفضله <i class="fa-regular fa-heart"></i>`
                             }
                     </button>
-                    <a href="#">تلاقيه فين ؟ <i class="fas fa-external-link-alt"></i></a>
+                    <a href="../pages/find.html">تلاقيه فين ؟ <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
