@@ -2,7 +2,10 @@ const params = new URLSearchParams(window.location.search);
 const searchValue = params.get("keywords");
 
 let animals = [];
-let favAnimals = JSON.parse(localStorage.getItem("favAnimals")) || [];
+let users = JSON.parse(localStorage.getItem("users")) || [];
+let currentUser = users.find(user => user.current === true);
+
+let favAnimals = currentUser.favAnimals || [];
 let currentFilter = null;
 
 fetch("../data.json")
@@ -81,8 +84,8 @@ function renderAnimals(filterType = null){
                 icon.classList.remove("fa-regular");
                 icon.classList.add("fa-solid");
             }
-            localStorage.setItem("favAnimals", JSON.stringify(favAnimals));
-            renderFavAnimals(currentFilter);
+            currentUser.favAnimals = favAnimals;
+            localStorage.setItem("users", JSON.stringify(users));
         });
     });
 }
